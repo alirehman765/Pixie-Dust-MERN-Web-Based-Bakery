@@ -1,0 +1,29 @@
+.HomeFULL {
+    background-color: #f6b5e7;
+    padding-top: 10vh;
+    color: #761c3c;
+    padding-left: 50%;
+    height: 90vh;
+    background-image: url("https://th.bing.com/th/id/R.59eeeafbec3b51d96e73e07c38d0f823?rik=cYnevGXhm0zHmw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ftransparent-pixie-dust%2ftransparent-pixie-dust-12.png&ehk=0LaNQRy6wHfakxFfWbFpB8q%2f8Knc806hPd7fKlOxc6E%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.HomeFULL h1 {
+    font-size: 50px;
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 2s forwards; /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.HomeInDiv {
+    text-align: center;
+    padding-top: 20vh;
+}

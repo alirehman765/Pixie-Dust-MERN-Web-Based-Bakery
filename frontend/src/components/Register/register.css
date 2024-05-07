@@ -1,0 +1,42 @@
+.RegisterFULL {
+    /* border: 1px black solid; */
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px;
+    text-align: left;
+    color: rgb(84, 9, 31);
+    width: 30%;
+    background-color: rgb(251, 151, 199);
+    padding: 20px; /* Add padding for better spacing */
+    margin-top: 20%;
+}
+
+table {
+    width: 100%; /* Ensure the table takes up the full width of the container */
+}
+
+table input[type="text"],
+table input[type="number"],
+table input[type="password"],
+table textarea {
+    width: calc(100% - 20px); /* Subtract padding from the width */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.registerBttn {
+    width: fit-content;
+    margin: 10px auto; /* Center the button horizontally */
+    display: block; /* Convert the button to block level for full width */
+    background-color: #a02761;
+    border: 1px solid #f65cdc; /* Adjust border style */
+    color: azure;
+    padding: 10px 20px; /* Adjust padding */
+}
+
+.registerBttn:hover {
+    background-color: #e55b87;
+}
+
+.registerBttn:active {
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+}

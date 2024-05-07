@@ -1,0 +1,58 @@
+.CartFULL {
+    background-color: #fdf5ea;
+    background-image: url("../../../../pixie.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 86vh;
+    text-align: center;
+    width: 100%;
+    padding-top: 10%;
+    color: rgb(124, 30, 79);
+    font-family: cursive;
+}
+
+.CartInDiv {
+    background-color: rgb(254, 183, 235);
+    width: 50%;
+    display: inline-block; 
+    box-shadow: 5px 5px 5px rgb(88, 88, 88);
+}
+
+.clearCartBttn {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    color: white;
+    border-radius: 15px;
+
+}
+.clearCartBttn:hover {
+    background-color:  rgb(218, 112, 190);
+
+}
+.clearCartBttn:active {
+    /* background-color: rgb(160, 158, 158); */
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+}
+
+.placeOrderBttn {
+    width: fit-content;
+    display: inline-block;
+    margin: 10px;
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.placeOrderBttn:hover {
+    background-color: rgb(238, 116, 206);
+}
+.placeOrderBttn:active {
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+}
+.linkBttn{
+    color: black;
+}

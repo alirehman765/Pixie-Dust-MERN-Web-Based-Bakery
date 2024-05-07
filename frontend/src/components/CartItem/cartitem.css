@@ -1,0 +1,63 @@
+.cartItemFULL {
+    background-color: rgb(249, 212, 239);
+    margin: 10px;
+    padding: 5px;
+    color: rgb(90, 2, 34);
+    text-align: justify;
+    overflow: hidden;
+}
+
+.itemTable {
+    width: 100%;
+    display: inline-block;
+}
+
+.tdItem {
+    width: 60%;
+    padding: 5px;
+}
+
+.tdPrice {
+    width: 20%;
+    padding: 5px;
+}
+
+.tdQuantity {
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.tdQuantity button {
+    padding: 5px;
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.tdQuantity button:hover {
+    background-color:  rgb(218, 112, 190);
+}
+
+.tdQuantity button:active {
+    box-shadow: 0px 0px 5px rgb(110, 123, 134);
+}
+
+.tdBttn button {
+    padding: 5px;
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.tdBttn button:hover {
+    background-color:  rgb(218, 112, 190);
+}
+
+.tdBttn button:active {
+    box-shadow: 0px 0px 5px rgb(110, 123, 134);
+}

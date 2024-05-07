@@ -1,0 +1,57 @@
+.ProfileFULL {
+    background-color: #fdf5ea;
+    background-image: url("../../../../pixie.jpg");
+    background-attachment: fixed;
+    background-size: auto;
+    text-align: center;
+    width: 100%;
+    color: rgb(84, 9, 31);
+    font-size: 15px;
+}
+
+
+
+/* .ProfileInDiv {
+    background-color: rgb(251, 151, 199);
+    align-items: center;
+    justify-content: center;
+    display: inline-block; 
+    margin-top: 15%;
+    padding:10px;
+    width: 50%;
+} */
+
+.WelcomeOuter
+{
+    background-color: rgb(251, 151, 199);
+    align-items: center;
+    justify-content: center;
+    display: inline-block; 
+    margin-top: 12%;
+    padding:10px;
+    width: 50%;
+}
+.WelcomeOuter:nth-last-child(1){
+    margin-bottom: 5%;
+}
+.logoutBttn {
+    width: 'fit-content';
+    display: 'inline-block';
+
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    padding: 10px;
+    font-size: 10px;
+    color: azure;
+    border-radius: 20px;
+}
+.logoutBttn:hover {
+    background-color: #e55b87;
+}
+.logoutBttn:active {
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+}
+.WelcomeProfileFULL{
+    height: 100vh;
+    overflow: scroll;
+}

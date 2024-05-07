@@ -1,0 +1,25 @@
+.MenuFULL {
+    background-color: #fdf5ea;
+    background-image: url("../../../../pixie.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180vh;
+    padding-top: 14vh;
+    text-align: center;
+    width: 100%;
+    padding-top: 10%;
+    color: rgb(124, 30, 79);
+    font-family: cursive;
+}
+
+.MenuInDiv {
+    /* background-color: wheat; */
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: inline-block; 
+}
+.MenuInDiv .dish-name {
+    color: rgb(253, 207, 241); /* Change 'blue' to the desired color */
+}

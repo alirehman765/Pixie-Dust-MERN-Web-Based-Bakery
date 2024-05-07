@@ -1,0 +1,37 @@
+.LoginFULL {
+    /* border: 1px black solid; */
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    vertical-align: middle;
+    margin: 50px;
+    text-align: left;
+    color: rgb(84, 9, 31);
+    background-color: rgb(251, 151, 199);
+    padding: 20px;
+    margin-top: 20%;
+}
+
+table td:first-child {
+    padding-right: 10px; /* Add padding to the right of the table cells containing text */
+}
+
+.loginBttn {
+    width: fit-content;
+    display: inline-block;
+    margin: 10px;
+    background-color: #a02761;
+    border: 1px solid #f65cdc;
+    padding: 5px 10px; /* Adjust padding */
+    color: azure;
+    
+    
+}
+
+.loginBttn:hover {
+    background-color: #e55b87;
+}
+
+.loginBttn:active {
+    box-shadow: 0px 0px 5px rgb(88, 88, 88);
+}
