@@ -15,16 +15,13 @@ This is a full-stack web application for a bakery, developed using the MERN stac
 ## Installation
 
 1. Clone the repository:
-   ```
-  https://github.com/MominaFaisal03/Pixie-Dust-MERN-Web-Final-Project.git
-   ```
+   ```https://github.com/MominaFaisal03/Pixie-Dust-MERN-Web-Final-Project.git```
 2. Install dependencies for the backend and frontend:
    ```
    cd ../backend
    npm install
    cd ../frontend
-   npm install
-   ```
+   npm install```
 
 ## Usage
 
