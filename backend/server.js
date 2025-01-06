@@ -14,7 +14,7 @@ app.use(express.json());
 
 // MONGODB ATLAS CONNECTION
 const uri = process.env.ATLAS_URI;
-mongoose.connect('mongodb+srv://mianalirehman1212:1234@testcluster.pdfdcx8.mongodb.net/?retryWrites=true&w=majority&appName=TestCluster'
+mongoose.connect(''
 , { useNewUrlParser: true, useCreateIndex: true });
 const connection = mongoose.connection;
 connection.once("open", () => {
